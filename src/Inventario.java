@@ -11,6 +11,9 @@ public class Inventario {
         productos = new HashMap<>();
     }
 
+    public Inventario(Map<String, Producto> productos) {
+        this.productos = productos;
+    }
 
     public Map<String, Producto> getProductos() {
         return productos;
